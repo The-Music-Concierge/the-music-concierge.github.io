@@ -1,0 +1,16 @@
+{{ $rating := .Get "rating" | default 0 | int }}
+{{ $maxStars := .Get "maxStars" | default 5 | int }}
+
+{{ if and (ge $rating 0) (ge $maxStars 2) }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{ range $i, $ := seq $maxStars }}
+        {{ if ge (add $i 1) $rating }}
+            <span class="fa fa-star checked"></span>
+        {{ else }}
+            <span class="fa fa-star"></span>
+        {{ end }}
+    {{ end }}
+{{ else }}
+    Invalid parameters provided for star rating shortcode.
+{{ end }}

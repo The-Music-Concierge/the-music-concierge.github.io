@@ -1,0 +1,15 @@
+<div class="pricing-table">
+  {{ range sort (where .Site.RegularPages "Section" "packages") "Params.weight" "asc" }}
+  <div class="pricing-card" style="border: 3px solid #{{ .Params.color | default "000"}}" onclick="changePackage('{{ .Params.name }}'); return false;">
+    <h2 class="pricing-card-header" style="color: #{{ .Params.color | default "000"}}">{{ .Params.name }}</h2>
+    <div class="pricing-card-features">
+      {{ range .Params.contents }}
+      <p>{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="pricing-card-spacer"></div>
+    <span class="pricing-card-button" style="background-color: #{{ .Params.color | default "000"}}">
+      {{ .Params.price }}</span>
+  </div>
+  {{ end }}
+</div>

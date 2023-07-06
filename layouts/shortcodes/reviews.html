@@ -1,0 +1,16 @@
+{{ $count := .Get "count" | default "1" }}
+
+{{ $reviews := first $count ( where (where .Site.RegularPages "Section" "reviews") "Params.draft" "!=" true )}}
+
+{{ range sort $reviews "Params.weight" }}
+<blockquote style="border-left: 4px solid #333; padding: 10px;">
+  <div>
+    {{ range seq .Params.rating }}
+      <span style="font-size:3rem" class="fa fa-star"></span> 
+    {{ end }}
+  </div>
+  {{ .Content }}
+  <span style="margin-top: 10px; font-style: italic; font-weight: bold;">- {{ .Params.author }}</span>
+</blockquote>
+
+{{ end }}

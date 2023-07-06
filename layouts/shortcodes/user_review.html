@@ -1,0 +1,10 @@
+{{ $rating := .Get "rating" | default "5" }}
+<blockquote style="border-left: 4px solid #333; padding: 10px;">
+  <div>
+    {{ range seq $rating }}
+      <span style="font-size:3rem" class="fa fa-star"></span> 
+    {{ end }}
+  </div>
+  <p>{{ .Inner }}</p>
+  <span style="margin-top: 10px; font-style: italic; font-weight: bold;">- {{ .Get "author" }}</span>
+</blockquote>

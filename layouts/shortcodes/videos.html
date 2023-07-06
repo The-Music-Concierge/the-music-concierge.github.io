@@ -1,0 +1,14 @@
+{{ $videos := where (where .Site.RegularPages "Section" "videos") "Params.draft" "!=" true}}
+{{ $videos := sort $videos "Params.weight"}}
+{{ $selected := index $videos 0 }}
+<div class="video-card">
+    <div class="video-frame">
+        <iframe src="https://www.youtube.com/embed/{{ $selected.Params.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-selector">
+        {{ range $index, $video := $videos }}
+        <a {{ if eq $index 0 }} class="selected"{{ end }} href="#" id="video-{{.Params.youtube_id}}" onclick="changeVideo('{{ .Params.youtube_id }}'); return false;">{{ .Params.title }}</a>
+        {{ end }}
+    </div>
+</div>
