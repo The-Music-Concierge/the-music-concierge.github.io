@@ -1,0 +1,93 @@
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px; /* Increased the max-width to accommodate thinner cards */
+}
+
+.pricing-card {
+  background-color: #f1f1f1;
+  /* border-radius: 15px; */
+  width: 220px;
+  margin: 15px 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.pricing-card-header {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+
+
+.pricing-card-features {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .pricing-card-button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  align-self: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  &:hover {
+    background: inherit;
+    color: #f45702;
+    border-bottom: 2px solid #f45702;
+  }
+} */
+
+.pricing-card-button {
+  display: block;
+  line-height: 14pt;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  letter-spacing: 2px;
+  border-bottom: 2px solid transparent;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 2rem;
+}
+
+.pricing-card-spacer {
+  flex-grow: 1;
+}
+
+
+
+
+
+@media (max-width: 960px) {
+  .pricing-card {
+    margin: 15px;
+    width: 40%;
+
+  }
+}
+
+@media (max-width: 630px) {
+  .pricing-card {
+    width: 100%;
+  }
+}
+

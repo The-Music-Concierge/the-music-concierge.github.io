@@ -1,0 +1,124 @@
+
+  .contact-us {
+    background: #f8f4e5;
+    padding: 50px 100px;
+    border-top: 10px solid #f3932d;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us label, input, textarea, select {
+    display: block;
+    width: 100%;
+    font-size: 12pt;
+    line-height: 14pt;
+  }
+  
+  .contact-us input, select {
+    margin-bottom: 14pt;
+  }
+
+  .contact-us select {
+    width: fit-content;
+  }
+
+  /* CSS styles for the flashing effect */
+  .flash {
+    animation: flashEffect 0.5s ease-in-out;
+  }
+
+  @keyframes flashEffect {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: #00000010;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+  
+  .contact-us h3 {
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 14pt;
+    font-style: italic;
+    margin: 0 0 .5em 0;
+  }
+  
+  .contact-us span {
+    font-size: 8pt;
+  }
+  
+  .contact-us em {
+    color: #f3932d;
+    font-weight: bold;
+  }
+  
+  .contact-us input, textarea, select {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    background: #f8f4e5;
+    margin-top: 5px;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .contact-us input:focus, textarea:focus {
+    border: 2px solid #bad0c4;
+  }
+  
+  .contact-us textarea {
+    resize: none;
+  }
+  
+  .contact-us button {
+    display: block;
+    line-height: 14pt;
+    padding: 10px 20px;
+    border: none;
+    background: #f3932d;
+    color: white;
+    letter-spacing: 2px;
+    transition: .2s all ease-in-out;
+    border-bottom: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 2rem;
+    &:hover {
+      background: inherit;
+      color: #f45702;
+      border-bottom: 2px solid #f45702;
+    }
+  }
+  
+  .contact-us ::selection {
+    background: rgb(255, 199, 184);
+  }
+  
+  .contact-us input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus {
+    border: 2px solid #bad0c4;
+    -webkit-text-fill-color: #2A293E;
+    -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  
+  @media (max-width: 960px) {
+    .contact-us {
+      padding: 50px 70px 50px 60px;
+    }
+  }
+  
+  @media (max-width: 630px) {
+    .contact-us {
+      padding: 50px 40px 50px 30px;
+    }
+  }
+  

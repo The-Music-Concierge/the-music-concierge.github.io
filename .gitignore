@@ -4,4 +4,3 @@ resources
 .gitignore
 .DS_Store
 assets/cover
-static
