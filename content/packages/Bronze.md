@@ -1,12 +1,13 @@
 ---
 name: Bronze
 contents:
-  - 1.5 hrs House Band
-  - 1 hr Piano Duo
+  - 1.5 hrs house band
+  - 1 hr piano duo
 weight: 1
 price: Enquire
 color: cd7f32
 ---
+
 
 
 
