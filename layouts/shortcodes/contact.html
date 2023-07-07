@@ -1,42 +1,38 @@
 <div id="enquiryForm" class="contact-us">
-    <form action="https://formkeep.com/f/1717df91d87a"
-        accept-charset="UTF-8"
-        enctype="multipart/form-data"
-        method="POST">
-
-      <label for="customerName">
-        <strong>NAME</strong>
-        <em>*</em>
-      </label>
-      <input type="text" id="customerName" name="name" required>
+  <form id="myForm" onsubmit="submitForm(event)">
+    <label for="customerName">
+      <strong>NAME</strong>
+      <em>*</em>
+    </label>
+    <input type="text" id="customerName" name="name" required>
   
-      <label for="customerEmail">
-        <strong>EMAIL</strong>
-        <em>*</em>
-      </label>
-      <input type="email" id="customerEmail" name="email" required>
+    <label for="customerEmail">
+      <strong>EMAIL</strong>
+      <em>*</em>
+    </label>
+    <input type="email" id="customerEmail" name="email" required>
   
-      <label for="customerPhone">
-        <strong>PHONE</strong>
-      </label>
-      <input type="tel" id="customerPhone" name="phone">
-
-      <label for="customerPackage">
-        <strong>PACKAGE</strong>
-      </label>
-      <select id="customerPackage" name="package" onchange="handlePackageChange()">
-        <option value="None">None - General Enquiry</option>
-        {{ range sort (where .Site.RegularPages "Section" "packages") "Params.weight" "asc" }}
-        <option value="{{.Params.name}}">{{ .Params.name}}</option>
-        {{ end}}
-      </select>
-
-      <label for="customerNote">
-        <strong>YOUR MESSAGE</strong>
-        <em>*</em>
-      </label>
-      <textarea rows="4" id="customerNote" name="message" required></textarea>
+    <label for="customerPhone">
+      <strong>PHONE</strong>
+    </label>
+    <input type="tel" id="customerPhone" name="phone">
   
-      <button id="customerSubmit" type="submit">SUBMIT</button>
-    </form>
+    <label for="customerPackage">
+      <strong>PACKAGE</strong>
+    </label>
+    <select id="customerPackage" name="package" onchange="handlePackageChange()">
+      <option value="None">None - General Enquiry</option>
+      {{ range sort (where .Site.RegularPages "Section" "packages") "Params.weight" "asc" }}
+      <option value="{{.Params.name}}">{{ .Params.name}}</option>
+      {{ end}}
+    </select>
+  
+    <label for="customerNote">
+      <strong>YOUR MESSAGE</strong>
+      <em>*</em>
+    </label>
+    <textarea rows="4" id="customerNote" name="message" required></textarea>
+    <button id="customerSubmit" type="submit">SUBMIT</button>
+  </form>
+  
   </div>
