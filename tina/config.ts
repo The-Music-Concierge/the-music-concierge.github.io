@@ -57,7 +57,7 @@ export default defineConfig({
           {
             type: "string",
             name: "body",
-            label: "Body",
+            label: "Body (Uses Markdown. See https://www.markdownguide.org/cheat-sheet/ for help.)",
             isBody: true,
             ui: {
               component: 'textarea',
