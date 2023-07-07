@@ -1,12 +1,13 @@
 ---
-name: Silver
+name: SILVER
 contents:
-  - 2 hrs house band
-  - 1 hr string quartet
+  - 'String Quartet: 2x 25 minute sets      '
+  - 'House Band: 2x 40 minute sets'
 weight: 2
-price: Enquire
+price: 'From £1700 '
 color: C0C0C0
 ---
+
 
 
 
