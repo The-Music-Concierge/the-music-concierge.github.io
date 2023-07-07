@@ -4,9 +4,10 @@ contents:
   - 2 hrs house band
   - 2 hrs string quartet
 weight: 3
-price: £399
+price: Enquire
 color: cfb53b
 ---
+
 
 
 
