@@ -6,9 +6,8 @@ header_menu: false
 weight: 1
 ---
 
-The bespoke booking service specialising in providing you with music for your wedding ceremony and reception. Think a string quartet to welcome you down the aisle, then our house band to keep you and your guests dancing all night.
 
-Let us take care of the live music for your event… 
+We are a bespoke booking service specialising in providing you with music for your wedding ceremony and reception. Think a string quartet to welcome you down the aisle, then our house band to keep you and your guests dancing all night!
 
 {{< carousel items="1" height="500" unit="px" duration="7000" >}}
 
