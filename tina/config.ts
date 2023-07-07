@@ -57,8 +57,11 @@ export default defineConfig({
           {
             type: "string",
             name: "body",
-            label: "Body - if you need a new line use {{< newline >}} in the text. Sorry that the ENTER key doesn't work.",
+            label: "Body",
             isBody: true,
+            ui: {
+              component: 'textarea',
+            },
           },
         ]
       },
