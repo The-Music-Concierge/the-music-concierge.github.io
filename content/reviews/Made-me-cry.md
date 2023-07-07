@@ -1,9 +1,9 @@
 ---
-title: Made me cry
-author: Emma
-date: 2023-05-27T23:00:00.000Z
+title: Wedding
+author: Tim Wither
+date: 2022-08-18T23:00:00.000Z
 rating: 4
 weight: 99
 ---
 
-The String Quartet's performance was simply sublime. The blend of their instruments created a rich, melodious tapestry of sound. Their attention to detail and precise execution of each piece showcased their exceptional talent and passion for music. I'm only dropping a star because it made me cry on my wedding day! RIP my makeup.
+From booking to the event, it was a joy with Jasmine. She was professional, and helped with the song decisions which were in her song list. Would recommend without hesitation. Thank you Jasmine 
