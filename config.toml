@@ -24,7 +24,7 @@ title = "The Music Concierge"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and https://gohugo.io/templates/internal#open-graph.
     # NOT the actual header background image, go to _index.md instead
-    images = ["images/cover-image.jpg"]
+    images = ["images/main.png"]
 
     # When set true, it creates a visual guard (partially transparent rounded box), preventing non-ideal background images from interfering with title/description headings
     # Ideal images are homogenous around the centre and contrasting to the text.
@@ -49,7 +49,7 @@ title = "The Music Concierge"
     hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
-    invertSectionColors = true
+    invertSectionColors = false
     
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
