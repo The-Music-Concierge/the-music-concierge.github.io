@@ -1,12 +1,13 @@
 ---
-name: Bronze
+name: BRONZE
 contents:
-  - 1.5 hrs house band
-  - 1 hr piano duo
+  - 'Violin & Piano Duo: 2x 25 minute sets '
+  - ' House Band: 2x 35 minute sets '
 weight: 1
-price: Enquire
+price: From £1320
 color: cd7f32
 ---
+
 
 
 
