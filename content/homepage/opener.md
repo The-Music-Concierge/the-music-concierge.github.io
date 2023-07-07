@@ -1,7 +1,7 @@
 ---
-title: "Enter our World of Musical Elegance"
-navigation_menu_title: "Welcome"
-header_menu_title: "Welcome"
+title: Enter our World of Musical Elegance
+navigation_menu_title: Welcome
+header_menu_title: Welcome
 header_menu: false
 weight: 1
 ---
