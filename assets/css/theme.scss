@@ -8,12 +8,18 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: 60%;
   margin: 0 auto;
   line-height: 0;
 }
 
+#site-head-content {
+  transform: translateY(-2rem);
+}
+
 #site-head.withCenteredImage{
   /* can't be used together with video */
+  padding: 0;
   background: var(--section-dark-bg-color) no-repeat center center;
 }
 
@@ -68,7 +74,7 @@ body {
 
   // Landing screen menu
   a.btn {
-    transform: translateY(-30px);
+    transform: translateY(-2rem);
     text-decoration: none;
     background-color: var(--highlight);
     color: var(--highlight-contrast);
@@ -95,17 +101,14 @@ body {
 
   /** The arrow button to scroll to content */
   #header-arrow {
+    transform: translateY(-2rem);
+    font-size: 140px;
+    margin: -10px auto;
+    text-align: center;
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: -80px;
-    margin: -10px auto;
-  }
-
-  #header-arrow a {
-    // transform: translateY(-45px);
-    font-size: 140px;
-    text-align: center;
+    bottom: -120px;
     cursor: pointer;
     opacity: 0.6;
     transition: all ease 0.3s;
