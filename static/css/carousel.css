@@ -5,6 +5,10 @@
     overflow: hidden;
 }
 
+.carousel .fa-li {
+    display: none;
+}
+
 .carousel ul {
     background-color: black;
     overflow: auto;
