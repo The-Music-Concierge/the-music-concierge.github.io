@@ -6,13 +6,13 @@
 }
 
 .carousel ul {
+    background-color: black;
     overflow: auto;
     display: flex;
     flex-wrap: nowrap;
     scroll-snap-type: x mandatory;
     scroll-snap-points-y: repeat(100%);
     scroll-behavior: smooth;
-    background: gray;
     -ms-overflow-style: none;
     scrollbar-width: none;
     margin: 0;
@@ -41,7 +41,7 @@
 }
 
 .carousel ul li>img {
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .carousel ul li>div {
