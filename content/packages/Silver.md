@@ -1,5 +1,5 @@
 ---
-name: SILVER
+name: Silver
 contents:
   - 'String Quartet: 2x 25 minute sets      '
   - 'House Band: 2x 40 minute sets'

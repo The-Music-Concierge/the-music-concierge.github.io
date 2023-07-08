@@ -1,5 +1,5 @@
 ---
-name: BRONZE
+name: Bronze
 contents:
   - 'Violin & Piano Duo: 2x 25 minute sets '
   - ' House Band: 2x 35 minute sets '

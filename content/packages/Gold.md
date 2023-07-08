@@ -1,5 +1,5 @@
 ---
-name: GOLD
+name: Gold
 contents:
   - 'Solo Violin: 1x 25 minute set  '
   - 'String Quartet: 3x 20 minute sets   '
