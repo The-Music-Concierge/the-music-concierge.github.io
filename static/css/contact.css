@@ -88,9 +88,10 @@
     outline: none;
     margin-top: 2rem;
     &:hover {
-      background: inherit;
-      color: #f45702;
+      background: #e88216;
+      color: #f8f4e5;
       border-bottom: 2px solid #f45702;
+      cursor: pointer;
     }
   }
   
