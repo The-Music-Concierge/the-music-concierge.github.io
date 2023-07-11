@@ -42,7 +42,7 @@ title = "The Music Concierge"
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "<p>© 2023 The Music Concierge UK. All rights reserved.</p><a href='/privacy.pdf'>Privacy Policy</a>"
+    copyright = "<a href='/privacy.pdf'>Privacy Policy</a><p>© 2023 The Music Concierge UK. All rights reserved.</p>"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
