@@ -56,5 +56,5 @@ function changePackage(packageName) {
       '&submit=Submit';
 
     // Redirect to the prefill URL
-    window.location.href = url;
+    window.open(url, '_blank').focus();
   }
