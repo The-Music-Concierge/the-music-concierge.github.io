@@ -22,7 +22,7 @@
         {{ end }}
 
         <div id="site-head-content" class="inner">
-            {{ with .Params.header_logo }}<img id="blog-logo" src="{{ . }}" />{{ end }}
+            <img id="blog-logo" alt="{{ .Params.header_headline }}" src="{{ .Params.header_logo }}" />
 
             {{ range where $sections ".Params.header_menu" "eq" true }}
               {{ $button_title := .Title }}

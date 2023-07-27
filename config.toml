@@ -35,10 +35,10 @@ title = "The Music Concierge"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "The Music Concierge"
+    title = "The Music Concierge UK"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "String Quartet, House Band, Piano Duo"
+    description = "The Music Concierge UK - String Quartet, House Band, Piano Duo"
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
@@ -52,7 +52,7 @@ title = "The Music Concierge"
     invertSectionColors = false
     
     [params.meta]
-        keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
+        keywords = "String Quartet Leeds, Piano Duo Booking, House Band for Events, Wedding Music Ensembles, Live Music Performers, Event Musicians Leeds, Book Musicians for Weddings, Professional Music Groups, Leeds Event Music, Wedding Musicians in Leeds, Live Music for Events Leeds, Music Entertainment in Leeds, Leeds Music Booking Services, Hire String Quartet for Wedding, Piano Duo for Events Leeds, House Band for Wedding Reception, Live Music for Corporate Events, Music Entertainment for Private Parties, Event Music Booking, Musician Hire Services, Booking Entertainment Online, Professional Musicians for Hire, Event Music Coordination, Classical Music Ensembles, Jazz House Band Leeds, Versatile Piano Duos, String Quartet Repertoire, Modern House Band Performers"
 
 [privacy]
   [privacy.disqus]

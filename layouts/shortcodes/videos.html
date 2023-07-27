@@ -3,7 +3,7 @@
 {{ $selected := index $videos 0 }}
 <div class="video-card">
     <div class="video-frame">
-        <iframe src="https://www.youtube.com/embed/{{ $selected.Params.youtube_id }}" frameborder="0" allowfullscreen></iframe>
+        <iframe title="video-frame-{{ $selected.Params.youtube_id }}" src="https://www.youtube.com/embed/{{ $selected.Params.youtube_id }}" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="video-selector">
