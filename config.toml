@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "The Music Concierge"
+title = "The Music Concierge UK"
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -38,7 +38,7 @@ title = "The Music Concierge"
     title = "The Music Concierge UK"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "The Music Concierge UK - String Quartet, House Band, Piano Duo"
+    description = "The Music Concierge UK - String Quartet, House Band, Piano Duo. Bespoke booking service simplifying live music for your event. Available for weddings, private events, corporate functions, and more."
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
